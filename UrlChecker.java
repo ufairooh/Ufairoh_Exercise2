@@ -10,7 +10,6 @@ Pattern Mypattern = Pattern.compile("^((https?|ftp)://|(www|ftp)\\.)[a-z0-9-]+(\
 	System.out.println("Enter the Url to be checked:");
 	String name = input.nextLine();
 	Matcher Mymatcher = Mypattern.matcher(name);
-	Boolean Myboolean = Mymatcher.matches();
 
 if(Myboolean == true){
 	System.out.println("Url is correct, you can go ahead with this");
